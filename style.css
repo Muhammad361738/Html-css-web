@@ -146,11 +146,12 @@ p{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .explore-content{
     width: 60%;
     margin: 50px;
-    color: rgb(124, 79, 79);
+    color: whitesmoke;
     display: flex;
     align-items: center;
     flex-direction: column;
