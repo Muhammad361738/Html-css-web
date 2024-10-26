@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar  -->
+     <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a href="#"></a>Contact</li>
+            </ul>
+            <img class="manu-btn" src="./images/manu.jpg" alt="">
+     </nav>
+     <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h2>Explore<span class="color">The Colorful</span> World</h2>
+            <div class="line"></div>
+            <h1>A WonderFul Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- Events section  -->
+     <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="event-img" src="./images/e1.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est maiores perspiciatis itaque deserunt, libero corporis.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img class="event-img" src="./images/e2.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est maiores perspiciatis itaque deserunt, libero corporis.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+     </section>
+     <!-- Explore Section  -->
+      <section class="explore">
+            <div class="explore-content">
+                <h1>Explore The World</h1>
+                <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus autem, dolorem error laboriosam distinctio mollitia aliquid, inventore veritatis eum quidem vero, est sint tempora.</p>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+      </section>
+      <!-- Tours Section  -->
+       <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION </h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor provident quo unde repellat quas natus blanditiis eveniet, voluptas quos nemo. Labore dolorum asperiores magni illum voluptates corrupti assumenda reprehenderit necessitatibus.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/t1.jpg" alt="">
+                    <img src="./images/t2.jpg" alt="">
+                    <img src="./images/t3.jpg" alt="">
+                    <img src="./images/t4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+       </section>
+       <!-- Foooter  -->
+        <section class="footer">
+            <p>123 fifth Avenue, NY York, USA | Phone: 888-123-456 | Email: abc@gmail.com</p>
+            <p>Copyright 2020 outdoor Adventure</p>
+        </section>
+  <script>
+    const manubtn = document.querySelector('.manu-btn');
+    const navlinks = document.querySelector('.nav-links');
+    manubtn.addEventListener("click",()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>
